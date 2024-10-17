@@ -1,6 +1,6 @@
 import { isObject } from '../utils/types';
 
-export const ObjectMethods = {
+export default {
     get(key, defaultValue) {
         return key.split('.').reduce((obj, part) => 
             (obj && obj[part] !== undefined) ? obj[part] : defaultValue, this.items);

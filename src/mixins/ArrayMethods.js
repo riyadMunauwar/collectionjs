@@ -1,4 +1,4 @@
-export const ArrayMethods = {
+export default {
     push(...items) {
         this.items.push(...items);
         return this;

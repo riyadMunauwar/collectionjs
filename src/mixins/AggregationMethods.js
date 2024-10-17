@@ -1,6 +1,6 @@
 import { sum, average, median } from '../utils/math';
 
-export const AggregationMethods = {
+export default {
     sum(key) {
         const values = key ? this.pluck(key) : this.items;
         return sum(values);

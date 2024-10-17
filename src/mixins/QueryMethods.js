@@ -1,4 +1,4 @@
-export const QueryMethods = {
+export default {
     where(key, operator, value) {
         if (arguments.length === 2) {
             value = operator;

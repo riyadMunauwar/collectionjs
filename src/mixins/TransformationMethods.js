@@ -1,4 +1,4 @@
-export const TransformationMethods = {
+export default {
     map(callback) {
         return new this.constructor(this.items.map(callback));
     },
