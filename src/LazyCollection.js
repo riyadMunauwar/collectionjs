@@ -1,5 +1,3 @@
-// src/LazyCollection.js
-
 import Collection from './Collection';
 
 class LazyCollection extends Collection {
